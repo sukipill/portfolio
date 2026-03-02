@@ -1,2 +1,2 @@
-# islahao
-Personal pre-uni project portfolio. 
+# Isla Hao - Portfolio 
+For documentation and collation.
