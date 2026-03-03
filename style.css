@@ -1,15 +1,50 @@
+
+div {
+  width:3000px;
+  margin-top: 150px;
+  margin-left: 100px;
+  
+}
+
 body {
-  background-color: rgb(21, 21, 57);
+  background-color: rgb(9, 9, 38);
+  color: white;
+  font-family: DejaVu Sans Mono, monospace;
+  font-size: 20px;
+  text-align: left;
+  margin: 0;
 }
 
 h1 {
   color: white;
-  text-align: center;
+  text-align: left;
+  font-family: DejaVu Sans Mono, monospace;
 }
 
-body {
-    color: white;
-  font-family: verdana;
-  font-size: 20px;
-    text-align: center;
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 12px;
+  background-color: #8ea1ca;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 30px;
+}
+
+ul li a{
+    display:block;
+    color:rgb(79, 91, 101);
+    padding: 14px 14px;
+}
+
+ul li a:hover{
+    background-color: azure;
+}
+
+ul li:first-child {
+  margin-right: auto;
 }
